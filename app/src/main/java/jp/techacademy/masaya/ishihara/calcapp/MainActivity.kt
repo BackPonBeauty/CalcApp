@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     intent.putExtra("VALUE3", number3)
                     startActivity(intent)
                 }
-                        
+
             }
         }
 
