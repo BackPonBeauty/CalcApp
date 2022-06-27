@@ -16,7 +16,9 @@
         android:layout_alignStart="@+id/button1"
         android:layout_marginStart="-20dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="number"
+        android:digits="0123456789-."
+        android:maxLength="13"
         android:textAlignment="textEnd" />
 
     <EditText
@@ -28,7 +30,9 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="9dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="number"
+        android:digits="0123456789-."
+        android:maxLength="13"
         android:textAlignment="textEnd" />
 
 
