@@ -69,8 +69,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             Log.d("UI_PARTS", "OK")
         }
 
-
-
         // AlertDialogを作成して表示する
         val alertDialog = alertDialogBuilder.create()
         alertDialog.show()
