@@ -22,11 +22,11 @@ class SecondActivity : AppCompatActivity() {
 
             }else if(value3 == "*"){
                 var Sum1 = "${value1.toFloat() * value2.toFloat()}"
-                textView.text = value1.toString() + " - " + value2.toString() + " = " + Sum1
+                textView.text = value1.toString() + " × " + value2.toString() + " = " + Sum1
 
             }else if(value3 == "/"){
                 var Sum1 = "${value1.toFloat() / value2.toFloat()}"
-                textView.text = value1.toString() + " - " + value2.toString() + " = " + Sum1
+                textView.text = value1.toString() + " ÷ " + value2.toString() + " = " + Sum1
 
             }
 
